@@ -1,0 +1,20 @@
+@media(max-width:435px){
+    .mobile_days{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .days{
+        width: 88px;
+        font-size: 12px;
+        padding:10px;
+        border-radius: 5px;
+    }
+}
+@media(max-width:1100px){
+    .days{
+        border-radius: 5px;
+    }
+}

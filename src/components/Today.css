@@ -1,0 +1,43 @@
+.today-container {
+  
+  background-color:linear-gradient(82.82deg, #1E3C72 3.22%, #2A5298 97.76%); /* Set background color */
+  padding: 60px; 
+  border-radius: 10px;
+  margin: 0 auto; 
+  width: 90%; 
+  height: 200px;
+  border-radius: 20px;
+}
+
+.today-title {
+  text-align: center; /* Center align the title */
+  margin-bottom: 20px; /* Add margin bottom to title */
+  font-size: 26px;
+  
+ 
+
+  color: #333; /* Customize text color */
+}
+
+.today-content {
+  background-color: #2A5298 ;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly */
+  margin-top: 20px; /* Add margin top */
+  color: white;
+  border-radius: 20px;
+
+}
+
+.today-content div {
+  flex: 0 0 30%; /* Set width of columns */
+  padding: 20px; /* Add padding to columns */
+}
+
+.today-content p {
+  margin-bottom: 10px; /* Add margin bottom to paragraphs */
+  padding: 10px;
+}
+.today-heading {
+   
+}

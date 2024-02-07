@@ -1,0 +1,38 @@
+@media(max-width:570px) {
+    .mobile_card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width:100%
+    }
+
+    .mobile_temp:first-child{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .mobile_temp:last-child{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .card_1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%
+    }
+    .card_1_2{
+        text-align:center;
+        width:100%;
+    }
+
+    .card_2_2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align:center;
+        width:100%;
+    }
+}

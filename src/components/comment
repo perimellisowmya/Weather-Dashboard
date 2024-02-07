@@ -1,0 +1,76 @@
+{/* <tr>
+      <th scope="row">3:00am</th>
+      <td><img src={forecast[ind].hour[3].condition.icon} alt="icon" /></td>
+      <td>{celscius?forecast[ind].hour[3].temp_c:forecast[ind].hour[3].temp_f} {celscius? <span>&deg;C</span>:<span>&deg;F</span>}</td>
+      <td>{celscius?forecast[ind].hour[3].wind_kph:forecast[ind].hour[3].wind_mph} {celscius? <span>Kmph</span>:<span>mph</span>}</td>
+      <td>{forecast[ind].hour[3].precip_in} in</td>
+      <td>{forecast[ind].hour[3].cloud} %</td>
+      <td>{forecast[ind].hour[3].humidity} %</td>
+      <td>{forecast[ind].hour[3].pressure_in} in</td>
+    </tr>
+
+    <tr>
+      <th scope="row">6:00am</th>
+      <td><img src={forecast[ind].hour[6].condition.icon} alt="icon" /></td>
+      <td>{celscius?forecast[ind].hour[6].temp_c:forecast[ind].hour[6].temp_f} {celscius? <span>&deg;C</span>:<span>&deg;F</span>}</td>
+      <td>{celscius?forecast[ind].hour[6].wind_kph:forecast[ind].hour[6].wind_mph} {celscius? <span>Kmph</span>:<span>mph</span>}</td>
+      <td>{forecast[ind].hour[6].precip_in} in</td>
+      <td>{forecast[ind].hour[6].cloud} %</td>
+      <td>{forecast[ind].hour[6].humidity} %</td>
+      <td>{forecast[ind].hour[6].pressure_in} in</td>
+    </tr>
+
+    <tr>
+      <th scope="row">9:00am</th>
+      <td><img src={forecast[ind].hour[9].condition.icon} alt="icon" /></td>
+      <td>{celscius?forecast[ind].hour[9].temp_c:forecast[ind].hour[9].temp_f} {celscius? <span>&deg;C</span>:<span>&deg;F</span>}</td>
+      <td>{celscius?forecast[ind].hour[9].wind_kph:forecast[ind].hour[9].wind_mph} {celscius? <span>Kmph</span>:<span>mph</span>}</td>
+      <td>{forecast[ind].hour[9].precip_in} in</td>
+      <td>{forecast[ind].hour[9].cloud} %</td>
+      <td>{forecast[ind].hour[9].humidity} %</td>
+      <td>{forecast[ind].hour[9].pressure_in} in</td>
+    </tr>
+    
+    <tr>
+      <th scope="row">12:00pm</th>
+      <td><img src={forecast[ind].hour[12].condition.icon} alt="icon" /></td>
+      <td>{celscius?forecast[ind].hour[12].temp_c:forecast[ind].hour[12].temp_f} {celscius? <span>&deg;C</span>:<span>&deg;F</span>}</td>
+      <td>{celscius?forecast[ind].hour[12].wind_kph:forecast[ind].hour[12].wind_mph} {celscius? <span>Kmph</span>:<span>mph</span>}</td>
+      <td>{forecast[ind].hour[12].precip_in} in</td>
+      <td>{forecast[ind].hour[12].cloud} %</td>
+      <td>{forecast[ind].hour[12].humidity} %</td>
+      <td>{forecast[ind].hour[12].pressure_in} in</td>
+    </tr>
+
+    <tr>
+      <th scope="row">3:00pm</th>
+      <td><img src={forecast[ind].hour[15].condition.icon} alt="icon" /></td>
+      <td>{celscius?forecast[ind].hour[15].temp_c:forecast[ind].hour[15].temp_f} {celscius? <span>&deg;C</span>:<span>&deg;F</span>}</td>
+      <td>{celscius?forecast[ind].hour[15].wind_kph:forecast[ind].hour[15].wind_mph} {celscius? <span>Kmph</span>:<span>mph</span>}</td>
+      <td>{forecast[ind].hour[15].precip_in} in</td>
+      <td>{forecast[ind].hour[15].cloud} %</td>
+      <td>{forecast[ind].hour[15].humidity} %</td>
+      <td>{forecast[ind].hour[15].pressure_in} in</td>
+    </tr>
+
+    <tr>
+      <th scope="row">6:00pm</th>
+      <td><img src={forecast[ind].hour[18].condition.icon} alt="icon" /></td>
+      <td>{celscius?forecast[ind].hour[18].temp_c:forecast[ind].hour[18].temp_f} {celscius? <span>&deg;C</span>:<span>&deg;F</span>}</td>
+      <td>{celscius?forecast[ind].hour[18].wind_kph:forecast[ind].hour[18].wind_mph} {celscius? <span>Kmph</span>:<span>mph</span>}</td>
+      <td>{forecast[ind].hour[18].precip_in} in</td>
+      <td>{forecast[ind].hour[18].cloud} %</td>
+      <td>{forecast[ind].hour[18].humidity} %</td>
+      <td>{forecast[ind].hour[18].pressure_in} in</td>
+    </tr>
+
+    <tr>
+      <th scope="row">8:00pm</th>
+      <td><img src={forecast[ind].hour[20].condition.icon} alt="icon" /></td>
+      <td>{celscius?forecast[ind].hour[20].temp_c:forecast[ind].hour[20].temp_f} {celscius? <span>&deg;C</span>:<span>&deg;F</span>}</td>
+      <td>{celscius?forecast[ind].hour[20].wind_kph:forecast[ind].hour[20].wind_mph} {celscius? <span>Kmph</span>:<span>mph</span>}</td>
+      <td>{forecast[ind].hour[20].precip_in} in</td>
+      <td>{forecast[ind].hour[20].cloud} %</td>
+      <td>{forecast[ind].hour[20].humidity} %</td>
+      <td>{forecast[ind].hour[20].pressure_in} in</td>
+    </tr> */}
