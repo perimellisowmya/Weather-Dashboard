@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Table from './Table'
 import table from './images/table.png'
-import chart from './images/chart.png'
-import LineChart from './LineChart'
+
 import './TableChart.css'
 
 function TableChart({ forecast, handleDay, celscius, day, ind, clickDay, weather }) {
@@ -43,19 +42,15 @@ function TableChart({ forecast, handleDay, celscius, day, ind, clickDay, weather
 
           }
         </div>
-
         <div className="col-md-4 text-end ">
           <button className='temp active' onClick={() => handleChart('t')}><img src={table} alt="table" /></button>
-          {/* <button className='temp' onClick={() =>handleChart('c')}><img src={chart} alt="chart"/></button> */}
         </div>
       </div>
       <div>
         <Table forecast={forecast} ind={ind} celscius={celscius} day={day} weather={weather} />
         <div className="mt-3 last show" style={{ padding: '30px', marginBottom: '20px', border: '1px solid #DDDDDD', borderRadius: '10px' }}>
-          {/* <LineChart celscius={celscius} forecast={forecast} ind={ind} day={day}/> */}
         </div>
       </div>
-
     </>
   )
 }

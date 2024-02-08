@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import axios from 'axios'
 import './Weather.css'
 import Error from './Error'
@@ -9,6 +9,8 @@ import Today from './Today'
 import TableChart from './TableChart'
 import weath from './images/craig.jpg'
 import pexels from './images/pexels.jpg'
+import event from './images/event.jpg'
+
 
 
 const Weather = () => {
@@ -17,7 +19,7 @@ const Weather = () => {
   const [weather, setWeather] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const [error, setError] = useState(false)
-  const [input, setInput] = useState("");
+  const [Searchinput, SetsearchInput] = useState("");
   const [celscius, setCelscius] = useState(true);
   const [ind, setIndex] = useState(0);
   const [submit, setSubmit] = useState(false);
@@ -27,9 +29,6 @@ const Weather = () => {
 
 
 
-  // useEffect(() => {
-
-  // }, [weather, user])
 
 
 
@@ -38,7 +37,7 @@ const Weather = () => {
     axios.get("https://api.weatherapi.com/v1/forecast.json", {
       params: {
         key: "04d8f044b0904ee39b655349240202",
-        q: input,
+        q: Searchinput,
         days: 7,
         aqi: "no",
         alert: "no"
@@ -103,18 +102,20 @@ const Weather = () => {
     else return (
       <div className="container">
 
-        <Search handleSubmit={e => handleSubmit(e)} setInput={setInput} user={user} setUser={setUser} />
+        <Search handleSubmit={e => handleSubmit(e)} setInput={SetsearchInput} user={user} setUser={setUser} />
         {
           console.log(user, weather)
         }
-        {/* Submit Condition */}
+
         <>
           {
 
             submit ? user === "farmers" ? <><TableChart forecast={forecast} ind={ind} handleDay={handleDay} celscius={celscius} day={day} clickDay={clickDay} weather={weather} /></>
 
               :
-              user === 'EventPlanners' ? <><Today weather={weather} forecast={forecast} celscius={celscius} /></> :
+              user === 'EventPlanners' ? <>
+                <img className='image' src={event} alt="back" />
+                <Today weather={weather} forecast={forecast} celscius={celscius} /></> :
                 user === 'Travelers' ? <><CurrentCard weather={weather} forecast={forecast} handleCel={handleCel} condition={condition} day={day} celscius={celscius} /></> :
                   <>
                     <img style={{ marginTop: '0px', width: '100%', height: '485px' }} src={weath} alt="back" />

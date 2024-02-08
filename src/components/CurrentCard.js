@@ -7,9 +7,6 @@ function CurrentCard({weather,condition,day,forecast,celscius,handleCel}) {
          <div className="row">
           <div className="col-9 mt-4 mb-3 text-start">
                 <h3 style={{display:'inline'}}> {weather.location.name} Weather Forecast </h3>
-                {/* <span className="help-block" style={{color:'#979797'}}>
-                  {weather.location.region}, {weather.location.country}
-                </span> */}
           </div>
     
           <div className="col-3 my-3 text-end">
